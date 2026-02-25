@@ -9,3 +9,12 @@ binding = "ASSETS"
 
 [observability]
 enabled = true
+workers_dev = false
+
+[[routes]]
+pattern = "partbutlermfg.com"
+custom_domain = true
+
+[[routes]]
+pattern = "www.partbutlermfg.com"
+custom_domain = true
